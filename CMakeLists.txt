@@ -19,7 +19,7 @@ enable_testing(true)
 # define source files
 set(SOURCES
     main.cc
-    ch01/typededuction.cc
+    01_typededuction.cc
 )
 
 # define output
