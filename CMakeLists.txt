@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.4.0)
-set (CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/dependencies/cmake")
+set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/dependencies/cmake")
 
 project(emcpp VERSION 1.0.0.0 LANGUAGES CXX)
 
@@ -20,6 +20,7 @@ enable_testing(true)
 set(SOURCES
     main.cc
     01_typededuction.cc
+    35_tasks.cc
 )
 
 # define output
